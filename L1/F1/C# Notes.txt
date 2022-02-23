@@ -1,0 +1,13 @@
+Main adinda metod hemishe application projectde olmalidi . Yoxsa ishlemeyecek. Program Main metod dan bashlayir ishlemeye
+.csproj fayli projectin config faylidir.
+NuGet - Basqa libraryleri projectde istifade etmek ucun istifade olunur. Istenilen libraryni biz download ede bilirik
+Execute (run) oluna bilen programlar ya .exe formatinda olur ya da .dll formatinda .   .dll formatda olanlar library kimi olan hisselerdi hansi ki .exe fayli ona referance edir ve onu ishledir.   .exe ise serberst ishleye bilir.
+MSIL or IL - Microsoft Intermediate Language - mac, linux, windows-da ishlede bilinmesi ucun 
+CLR - IL -den istifade edib programin run olmasina kome edir
+JIT - Just in Time compile - projectin mueyyen hissesini run edir, ve yaddashda saxlayir. Ki gelen defe acmasin onu. (Bir nov Execution plan kimi)
+GC -Garbage Collector - Programda hansi ki objectler deyishenler yaddashda yer tutur daha sonra ehtiyac olmur ona C# ozu avtomatik onu temizleyir (Cleaner xarakterli)
+APİ - Her hansi bir interface olmadan icra olunan prosesler yignidir. Meselen A message send edir APİ A-nin mesajini B-e catdirir ve s.
+Worker application - Trigger kimi ishleyir yoxlayir 1 saniyeden bir ki mesaj varsa gonder (Whatsapp)
+2cur TYPE var - Referance tipler (class, reference, array, dynamic) \ Value type (deyishen tipleri)
+
+
